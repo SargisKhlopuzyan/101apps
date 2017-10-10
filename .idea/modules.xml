@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/101apps.iml" filepath="$PROJECT_DIR$/101apps.iml" />
       <module fileurl="file://$PROJECT_DIR$/android_cloud_connections_using_the_okhttp_library/android_cloud_connections_using_the_okhttp_library.iml" filepath="$PROJECT_DIR$/android_cloud_connections_using_the_okhttp_library/android_cloud_connections_using_the_okhttp_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_recyclerview_and_picasso/android_recyclerview_and_picasso.iml" filepath="$PROJECT_DIR$/android_recyclerview_and_picasso/android_recyclerview_and_picasso.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
