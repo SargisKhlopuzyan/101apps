@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/android_cloud_connections_using_the_okhttp_library" />
             <option value="$PROJECT_DIR$/android_recyclerview_and_picasso" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/converting_android_activities_to_fragments" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

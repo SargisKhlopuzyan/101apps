@@ -17,6 +17,15 @@ import java.util.ArrayList;
 
 public class MainActivity extends Activity {
 
+    private class MyOnClickListener implements View.OnClickListener {
+
+        @Override
+        public void onClick(View v) {
+            String selectedArticleUrl = getSelectedArticleUrl(v);
+            showSelectedArticle(selectedArticleUrl);
+        }
+    }
+
     private RecyclerView.LayoutManager layoutManager;
     public static View.OnClickListener myOnClickListener;
     private static RecyclerView recyclerView;
@@ -51,15 +60,6 @@ public class MainActivity extends Activity {
             articleList.add(new AnArticle(imageUrl, articleUrl));
         }
         return articleList;
-    }
-
-    private class MyOnClickListener implements View.OnClickListener {
-
-        @Override
-        public void onClick(View v) {
-            String selectedArticleUrl = getSelectedArticleUrl(v);
-            showSelectedArticle(selectedArticleUrl);
-        }
     }
 
     private String getSelectedArticleUrl(View view) {
