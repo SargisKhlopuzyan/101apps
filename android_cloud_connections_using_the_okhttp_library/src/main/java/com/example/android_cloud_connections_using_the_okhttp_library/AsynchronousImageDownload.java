@@ -1,12 +1,12 @@
 package  com.example.android_cloud_connections_using_the_okhttp_library;
 
-import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -28,7 +28,7 @@ import okhttp3.ResponseBody;
 /*created using Android Studio (Beta) 0.8.14
 www.101apps.co.za*/
 
-public class AsynchronousImageDownload extends Activity {
+public class AsynchronousImageDownload extends AppCompatActivity {
 
     private static final String TAG = "TAG_okhttp";
     String imageUrl = "http://www.101apps.co.za/images/headers/101_logo_very_small.jpg";

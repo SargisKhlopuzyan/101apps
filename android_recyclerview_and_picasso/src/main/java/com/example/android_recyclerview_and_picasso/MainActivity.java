@@ -1,8 +1,8 @@
 package com.example.android_recyclerview_and_picasso;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -15,7 +15,7 @@ import java.util.ArrayList;
  * www.101apps.co.za
  */
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     private class MyOnClickListener implements View.OnClickListener {
 

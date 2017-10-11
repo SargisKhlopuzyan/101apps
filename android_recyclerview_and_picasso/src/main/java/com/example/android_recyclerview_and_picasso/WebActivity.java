@@ -1,7 +1,7 @@
 package com.example.android_recyclerview_and_picasso;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -10,7 +10,7 @@ import android.webkit.WebViewClient;
  * Created using Android Studio (Beta) 0.8.14
  * www.101apps.co.za
  */
-public class WebActivity extends Activity {
+public class WebActivity extends AppCompatActivity {
 
     private WebView webview;
 

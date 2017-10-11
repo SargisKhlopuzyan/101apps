@@ -1,14 +1,14 @@
 package com.example.converting_android_activities_to_fragments;
 
-import android.app.Activity;
 import android.app.FragmentManager;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /*
 www.101apps.co.za
 displays a button in a fragment
 press button to swop fragment to list fragments that displays list of names*/
-public class MainActivity extends Activity
+public class MainActivity extends AppCompatActivity
         implements ContactsListFragment.OnContactSelectedListener {
 
     private static FragmentManager fragmentManager;
