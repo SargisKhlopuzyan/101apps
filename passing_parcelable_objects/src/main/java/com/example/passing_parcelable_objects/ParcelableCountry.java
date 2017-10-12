@@ -33,7 +33,6 @@ public class ParcelableCountry implements Parcelable {
         country.setPopulation(in.readInt());
     }
 
-
     @Override
     public int describeContents() {
         Log.i(TAG, "in describeContents()");

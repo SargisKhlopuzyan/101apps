@@ -2,7 +2,7 @@ package com.example.passing_parcelable_objects;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 
@@ -13,7 +13,7 @@ import java.util.Random;
  * www.101apps.co.za
  */
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
     private Country thisCountry;
