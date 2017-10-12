@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/android_recyclerview_and_picasso" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/converting_android_activities_to_fragments" />
+            <option value="$PROJECT_DIR$/passing_parcelable_objects" />
+            <option value="$PROJECT_DIR$/passing_serializable_objects" />
             <option value="$PROJECT_DIR$/toolbar" />
           </set>
         </option>
