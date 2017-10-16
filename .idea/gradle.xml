@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/passing_parcelable_objects" />
             <option value="$PROJECT_DIR$/passing_serializable_objects" />
             <option value="$PROJECT_DIR$/toolbar" />
+            <option value="$PROJECT_DIR$/universal_image_loader_list" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
