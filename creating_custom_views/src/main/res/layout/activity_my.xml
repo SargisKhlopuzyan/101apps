@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.creating_custom_views.MyCustomView
+        android:id="@+id/customView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:circleText="@string/press_me"
+        custom:circleTextColor="@android:color/white"
+        custom:circleTextSize="10"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/customView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/blue"
+        android:padding="10dp"
+        android:text="@string/just_do_it"
+        android:textColor="@android:color/white"
+        android:textSize="35dp"/>
+
+</RelativeLayout>
+
+

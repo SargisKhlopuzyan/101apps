@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/android_styles_and_themes" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/converting_android_activities_to_fragments" />
+            <option value="$PROJECT_DIR$/creating_custom_views" />
             <option value="$PROJECT_DIR$/passing_parcelable_objects" />
             <option value="$PROJECT_DIR$/passing_serializable_objects" />
             <option value="$PROJECT_DIR$/toolbar" />
