@@ -16,7 +16,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -26,31 +26,31 @@
         android:text="Start Service" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonStop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/button"
+        android:layout_alignTop="@+id/buttonPlay"
         android:text="Stop Service" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button2"
+        android:layout_above="@+id/buttonStop"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="80dp"
         android:hint="What's happening?"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonMoveServiceBackground"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button2"
+        android:layout_alignLeft="@+id/buttonStop"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/button2"
+        android:layout_alignStart="@+id/buttonStop"
         android:text="Foreground Activity" />
 
 </RelativeLayout>

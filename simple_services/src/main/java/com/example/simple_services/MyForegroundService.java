@@ -24,19 +24,19 @@ public class MyForegroundService extends Service {
     int NOTIFICATION_ID = 101;
     int REQUEST_CODE = 1;
 
-    private String TAG = "services";
+    private String TAG = "LOG_TAG";
     private Thread backgroundThread;
-    private MediaPlayer player;
+    private MediaPlayer mediaPlayer;
 
-    static final String ACTION_FOREGROUND = "com.example.services.services_app.MyForegroundService.FOREGROUND";
-    static final String ACTION_BACKGROUND = "com.example.services.services_app.MyForegroundService.BACKGROUND";
+    static final String ACTION_FOREGROUND = "com.example.simple_services.MyForegroundService.FOREGROUND";
+    static final String ACTION_BACKGROUND = "com.example.simple_services.MyForegroundService.BACKGROUND";
 
     @Override
     public void onCreate() {
         super.onCreate();
-
-        player = MediaPlayer.create(this, R.raw.correct_sound);
-        player.setLooping(true);
+        Log.i(TAG, "onCreate()");
+        mediaPlayer = MediaPlayer.create(this, R.raw.correct_sound);
+        mediaPlayer.setLooping(true);
 
         backgroundThread = new Thread(new Runnable() {
             @Override
@@ -45,8 +45,7 @@ public class MyForegroundService extends Service {
             }
         });
 
-        Toast.makeText(this, "Foreground Service Created",
-                Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Foreground Service Created", Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -58,14 +57,13 @@ public class MyForegroundService extends Service {
     //    called each time startService() called and on restarts
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.i(TAG, "in onStartCommand ...");
+        Log.i(TAG, "onStartCommand(...)");
         if (ACTION_FOREGROUND.equals(intent.getAction())) {
             Log.i(TAG, "Start Play Music in Foreground Service");
             //start foreground service
             startForeground(NOTIFICATION_ID, getCompatNotification());
-//          start the display activity
-            Intent intentDisplayActivity = new Intent(
-                    MyForegroundService.this, DisplayActivity.class);
+            //start the display activity
+            Intent intentDisplayActivity = new Intent(MyForegroundService.this, DisplayActivity.class);
             intentDisplayActivity.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intentDisplayActivity);
         } else if (ACTION_BACKGROUND.equals(intent.getAction())) {
@@ -75,8 +73,8 @@ public class MyForegroundService extends Service {
             passing true = removes notification*/
             stopForeground(true);
         }
-//        if the music is not playing, start a thread to play the music
-        if (!player.isPlaying()) {
+        //if the music is not playing, start a thread to play the music
+        if (!mediaPlayer.isPlaying()) {
             Log.i(TAG, "Starting Thread...");
             backgroundThread.start();
         } else {
@@ -85,17 +83,16 @@ public class MyForegroundService extends Service {
         return START_STICKY;
     }
 
-    //    build the notification which includes a pending intent
+    //build the notification which includes a pending intent
     private Notification getCompatNotification() {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
         builder.setSmallIcon(R.drawable.ic_launcher)
                 .setContentTitle("Service Started")
                 .setTicker("Music Playing")
                 .setWhen(System.currentTimeMillis());
-        Intent startIntent = new Intent(getApplicationContext(),
-                ForegroundActivity.class);
-        PendingIntent contentIntent = PendingIntent.getActivity(
-                this, REQUEST_CODE, startIntent, 0);
+        Intent startIntent = new Intent(getApplicationContext(), ForegroundActivity.class);
+        //NEW
+        PendingIntent contentIntent = PendingIntent.getActivity(this, REQUEST_CODE, startIntent, 0);
         builder.setContentIntent(contentIntent);
         Notification notification = builder.build();
         return notification;
@@ -105,15 +102,14 @@ public class MyForegroundService extends Service {
     public void onDestroy() {
         super.onDestroy();
         Log.i(TAG, "Service destroyed");
-        Toast.makeText(this, "Service Destroyed",
-                Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Service Destroyed", Toast.LENGTH_SHORT).show();
 
-        if (player.isPlaying()) {
-            Log.i(TAG, "player released");
-            player.release();
-            player = null;
+        if (mediaPlayer.isPlaying()) {
+            Log.i(TAG, "mediaPlayer released");
+            mediaPlayer.release();
+            mediaPlayer = null;
         }
-        //      kill the thread
+        //kill the thread
         if (backgroundThread != null) {
             Log.i(TAG, "Destroying thread...");
             Thread dummy = backgroundThread;
@@ -122,9 +118,9 @@ public class MyForegroundService extends Service {
         }
     }
 
-    //    starts media player playing sound loop
+    //starts media mediaPlayer playing sound loop
     private void playMusic() {
         Log.i(TAG, "Playing music in Service");
-        player.start();
+        mediaPlayer.start();
     }
 }

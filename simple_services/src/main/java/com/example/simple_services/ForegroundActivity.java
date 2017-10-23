@@ -22,38 +22,35 @@ public class ForegroundActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_foreground);
 
-        Button buttonPlay = (Button) findViewById(R.id.button);
+        Button buttonPlay = (Button) findViewById(R.id.buttonPlay);
         buttonPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startForegroundIntent = new Intent(
-                        MyForegroundService.ACTION_FOREGROUND);
-                startForegroundIntent.setClass(
-                        ForegroundActivity.this, MyForegroundService.class);
+                Intent startForegroundIntent = new Intent(MyForegroundService.ACTION_FOREGROUND);
+                startForegroundIntent.setClass(ForegroundActivity.this, MyForegroundService.class);
                 startService(startForegroundIntent);
             }
         });
 
-        Button buttonMoveServiceBackground = (Button) findViewById(R.id.button3);
+        Button buttonStop = (Button) findViewById(R.id.buttonStop);
+        buttonStop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent stopIntent = new Intent(ForegroundActivity.this, MyForegroundService.class);
+                stopService(stopIntent);
+            }
+        });
+
+        Button buttonMoveServiceBackground = (Button) findViewById(R.id.buttonMoveServiceBackground);
         buttonMoveServiceBackground.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startBackgroundIntent = new Intent(
-                        MyForegroundService.ACTION_BACKGROUND);
-                startBackgroundIntent.setClass(
-                        ForegroundActivity.this, MyForegroundService.class);
+                Intent startBackgroundIntent = new Intent(MyForegroundService.ACTION_BACKGROUND);
+                startBackgroundIntent.setClass(ForegroundActivity.this, MyForegroundService.class);
                 startService(startBackgroundIntent);
             }
         });
 
-        Button buttonStop = (Button) findViewById(R.id.button2);
-        buttonStop.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent stopIntent = new Intent(
-                        ForegroundActivity.this, MyForegroundService.class);
-                stopService(stopIntent);
-            }
-        });
+
     }
 }

@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         textView = (TextView) findViewById(R.id.textView);
 
-        Button buttonStartSimpleService = (Button) findViewById(R.id.button);
+        Button buttonStartSimpleService = (Button) findViewById(R.id.buttonPlay);
         buttonStartSimpleService.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button buttonStopSimpleService = (Button) findViewById(R.id.button2);
+        Button buttonStopSimpleService = (Button) findViewById(R.id.buttonStop);
         buttonStopSimpleService.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button buttonGoForegroundActivity = (Button) findViewById(R.id.button3);
+        Button buttonGoForegroundActivity = (Button) findViewById(R.id.buttonMoveServiceBackground);
         buttonGoForegroundActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
