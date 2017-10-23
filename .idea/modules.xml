@@ -10,8 +10,12 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/converting_android_activities_to_fragments/converting_android_activities_to_fragments.iml" filepath="$PROJECT_DIR$/converting_android_activities_to_fragments/converting_android_activities_to_fragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/creating_custom_views/creating_custom_views.iml" filepath="$PROJECT_DIR$/creating_custom_views/creating_custom_views.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragments_configuration_changes/fragments_configuration_changes.iml" filepath="$PROJECT_DIR$/fragments_configuration_changes/fragments_configuration_changes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intents_and_intent_filters/intents_and_intent_filters.iml" filepath="$PROJECT_DIR$/intents_and_intent_filters/intents_and_intent_filters.iml" />
       <module fileurl="file://$PROJECT_DIR$/passing_parcelable_objects/passing_parcelable_objects.iml" filepath="$PROJECT_DIR$/passing_parcelable_objects/passing_parcelable_objects.iml" />
       <module fileurl="file://$PROJECT_DIR$/passing_serializable_objects/passing_serializable_objects.iml" filepath="$PROJECT_DIR$/passing_serializable_objects/passing_serializable_objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple_services/simple_services.iml" filepath="$PROJECT_DIR$/simple_services/simple_services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/threads/threads.iml" filepath="$PROJECT_DIR$/threads/threads.iml" />
       <module fileurl="file://$PROJECT_DIR$/toolbar/toolbar.iml" filepath="$PROJECT_DIR$/toolbar/toolbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/universal_image_loader_grid/universal_image_loader_grid.iml" filepath="$PROJECT_DIR$/universal_image_loader_grid/universal_image_loader_grid.iml" />
       <module fileurl="file://$PROJECT_DIR$/universal_image_loader_list/universal_image_loader_list.iml" filepath="$PROJECT_DIR$/universal_image_loader_list/universal_image_loader_list.iml" />

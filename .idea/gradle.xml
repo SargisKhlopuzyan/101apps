@@ -15,8 +15,12 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/converting_android_activities_to_fragments" />
             <option value="$PROJECT_DIR$/creating_custom_views" />
+            <option value="$PROJECT_DIR$/fragments_configuration_changes" />
+            <option value="$PROJECT_DIR$/intents_and_intent_filters" />
             <option value="$PROJECT_DIR$/passing_parcelable_objects" />
             <option value="$PROJECT_DIR$/passing_serializable_objects" />
+            <option value="$PROJECT_DIR$/simple_services" />
+            <option value="$PROJECT_DIR$/threads" />
             <option value="$PROJECT_DIR$/toolbar" />
             <option value="$PROJECT_DIR$/universal_image_loader_grid" />
             <option value="$PROJECT_DIR$/universal_image_loader_list" />
