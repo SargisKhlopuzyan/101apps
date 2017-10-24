@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/android_styles_and_themes/android_styles_and_themes.iml" filepath="$PROJECT_DIR$/android_styles_and_themes/android_styles_and_themes.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/bound_services/bound_services.iml" filepath="$PROJECT_DIR$/bound_services/bound_services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcast_receivers/broadcast_receivers.iml" filepath="$PROJECT_DIR$/broadcast_receivers/broadcast_receivers.iml" />
       <module fileurl="file://$PROJECT_DIR$/converting_android_activities_to_fragments/converting_android_activities_to_fragments.iml" filepath="$PROJECT_DIR$/converting_android_activities_to_fragments/converting_android_activities_to_fragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/creating_custom_views/creating_custom_views.iml" filepath="$PROJECT_DIR$/creating_custom_views/creating_custom_views.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragments_configuration_changes/fragments_configuration_changes.iml" filepath="$PROJECT_DIR$/fragments_configuration_changes/fragments_configuration_changes.iml" />

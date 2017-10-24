@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.broadcast_receivers">
+
+    <!--needs to be granted this permission to receive the broadcast/
+    the user grants this when they install the app-->
+    <uses-permission
+        android:name="com.example.broadcast_receivers.broadcast.PERMISSION_FROM_ME">
+    </uses-permission>
+
+    <!--declares which permissions are needed for the whole app.
+    You must declare which permissions will be required by the app-->
+    <permission
+        android:name="com.example.broadcast_receivers.broadcast.PERMISSION_FROM_ME">
+    </permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ThirdActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ForthActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <receiver android:name=".MyBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+            </intent-filter>
+        </receiver>
+        <!-- <receiver
+             android:name=".PermissionReceiver"
+             android:permission="com.example.broadcast_receivers.broadcast.PERMISSION_FROM_ME">
+             <intent-filter>
+                 <action android:name="com.example.broadcast_receivers.broadcast.ACTION_PERMISSION_TEST" />
+             </intent-filter>
+         </receiver>-->
+
+        <service android:name=".MySimpleService"></service>
+    </application>
+
+</manifest>
