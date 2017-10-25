@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/toolbar/toolbar.iml" filepath="$PROJECT_DIR$/toolbar/toolbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/universal_image_loader_grid/universal_image_loader_grid.iml" filepath="$PROJECT_DIR$/universal_image_loader_grid/universal_image_loader_grid.iml" />
       <module fileurl="file://$PROJECT_DIR$/universal_image_loader_list/universal_image_loader_list.iml" filepath="$PROJECT_DIR$/universal_image_loader_list/universal_image_loader_list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/using_an_intentservice/using_an_intentservice.iml" filepath="$PROJECT_DIR$/using_an_intentservice/using_an_intentservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/volley_list_and_grid/volley_list_and_grid.iml" filepath="$PROJECT_DIR$/volley_list_and_grid/volley_list_and_grid.iml" />
     </modules>
   </component>
