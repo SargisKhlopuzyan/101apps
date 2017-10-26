@@ -26,6 +26,7 @@
             <option value="$PROJECT_DIR$/toolbar" />
             <option value="$PROJECT_DIR$/universal_image_loader_grid" />
             <option value="$PROJECT_DIR$/universal_image_loader_list" />
+            <option value="$PROJECT_DIR$/using_an_asynctask" />
             <option value="$PROJECT_DIR$/using_an_intentservice" />
             <option value="$PROJECT_DIR$/volley_list_and_grid" />
           </set>
