@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/intents_and_intent_filters/intents_and_intent_filters.iml" filepath="$PROJECT_DIR$/intents_and_intent_filters/intents_and_intent_filters.iml" />
       <module fileurl="file://$PROJECT_DIR$/passing_parcelable_objects/passing_parcelable_objects.iml" filepath="$PROJECT_DIR$/passing_parcelable_objects/passing_parcelable_objects.iml" />
       <module fileurl="file://$PROJECT_DIR$/passing_serializable_objects/passing_serializable_objects.iml" filepath="$PROJECT_DIR$/passing_serializable_objects/passing_serializable_objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/saving_the_activitys_instance_state/saving_the_activitys_instance_state.iml" filepath="$PROJECT_DIR$/saving_the_activitys_instance_state/saving_the_activitys_instance_state.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple_services/simple_services.iml" filepath="$PROJECT_DIR$/simple_services/simple_services.iml" />
       <module fileurl="file://$PROJECT_DIR$/threads/threads.iml" filepath="$PROJECT_DIR$/threads/threads.iml" />
       <module fileurl="file://$PROJECT_DIR$/toolbar/toolbar.iml" filepath="$PROJECT_DIR$/toolbar/toolbar.iml" />

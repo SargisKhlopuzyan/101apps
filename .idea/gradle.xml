@@ -21,6 +21,7 @@
             <option value="$PROJECT_DIR$/intents_and_intent_filters" />
             <option value="$PROJECT_DIR$/passing_parcelable_objects" />
             <option value="$PROJECT_DIR$/passing_serializable_objects" />
+            <option value="$PROJECT_DIR$/saving_the_activitys_instance_state" />
             <option value="$PROJECT_DIR$/simple_services" />
             <option value="$PROJECT_DIR$/threads" />
             <option value="$PROJECT_DIR$/toolbar" />
