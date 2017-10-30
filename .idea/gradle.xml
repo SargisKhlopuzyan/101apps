@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/broadcast_receivers" />
             <option value="$PROJECT_DIR$/converting_android_activities_to_fragments" />
             <option value="$PROJECT_DIR$/creating_custom_views" />
+            <option value="$PROJECT_DIR$/custom_content_providers" />
             <option value="$PROJECT_DIR$/fragments" />
             <option value="$PROJECT_DIR$/fragments_configuration_changes" />
             <option value="$PROJECT_DIR$/intents_and_intent_filters" />
