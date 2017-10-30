@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/passing_serializable_objects/passing_serializable_objects.iml" filepath="$PROJECT_DIR$/passing_serializable_objects/passing_serializable_objects.iml" />
       <module fileurl="file://$PROJECT_DIR$/saving_the_activitys_instance_state/saving_the_activitys_instance_state.iml" filepath="$PROJECT_DIR$/saving_the_activitys_instance_state/saving_the_activitys_instance_state.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple_services/simple_services.iml" filepath="$PROJECT_DIR$/simple_services/simple_services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlite_database/sqlite_database.iml" filepath="$PROJECT_DIR$/sqlite_database/sqlite_database.iml" />
       <module fileurl="file://$PROJECT_DIR$/threads/threads.iml" filepath="$PROJECT_DIR$/threads/threads.iml" />
       <module fileurl="file://$PROJECT_DIR$/toolbar/toolbar.iml" filepath="$PROJECT_DIR$/toolbar/toolbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/universal_image_loader_grid/universal_image_loader_grid.iml" filepath="$PROJECT_DIR$/universal_image_loader_grid/universal_image_loader_grid.iml" />
