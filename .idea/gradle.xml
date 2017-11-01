@@ -24,6 +24,7 @@
             <option value="$PROJECT_DIR$/passing_parcelable_objects" />
             <option value="$PROJECT_DIR$/passing_serializable_objects" />
             <option value="$PROJECT_DIR$/saving_the_activitys_instance_state" />
+            <option value="$PROJECT_DIR$/simple_service_part_1_2" />
             <option value="$PROJECT_DIR$/simple_services" />
             <option value="$PROJECT_DIR$/sqlite_database" />
             <option value="$PROJECT_DIR$/threads" />

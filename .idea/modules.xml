@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/passing_parcelable_objects/passing_parcelable_objects.iml" filepath="$PROJECT_DIR$/passing_parcelable_objects/passing_parcelable_objects.iml" />
       <module fileurl="file://$PROJECT_DIR$/passing_serializable_objects/passing_serializable_objects.iml" filepath="$PROJECT_DIR$/passing_serializable_objects/passing_serializable_objects.iml" />
       <module fileurl="file://$PROJECT_DIR$/saving_the_activitys_instance_state/saving_the_activitys_instance_state.iml" filepath="$PROJECT_DIR$/saving_the_activitys_instance_state/saving_the_activitys_instance_state.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple_service_part_1_2/simple_service_part_1_2.iml" filepath="$PROJECT_DIR$/simple_service_part_1_2/simple_service_part_1_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple_services/simple_services.iml" filepath="$PROJECT_DIR$/simple_services/simple_services.iml" />
       <module fileurl="file://$PROJECT_DIR$/sqlite_database/sqlite_database.iml" filepath="$PROJECT_DIR$/sqlite_database/sqlite_database.iml" />
       <module fileurl="file://$PROJECT_DIR$/threads/threads.iml" filepath="$PROJECT_DIR$/threads/threads.iml" />
