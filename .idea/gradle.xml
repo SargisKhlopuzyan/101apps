@@ -21,6 +21,7 @@
             <option value="$PROJECT_DIR$/fragments" />
             <option value="$PROJECT_DIR$/fragments_configuration_changes" />
             <option value="$PROJECT_DIR$/intents_and_intent_filters" />
+            <option value="$PROJECT_DIR$/notification" />
             <option value="$PROJECT_DIR$/passing_parcelable_objects" />
             <option value="$PROJECT_DIR$/passing_serializable_objects" />
             <option value="$PROJECT_DIR$/saving_the_activitys_instance_state" />
