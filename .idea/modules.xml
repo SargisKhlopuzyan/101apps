@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/android_recyclerview_and_picasso/android_recyclerview_and_picasso.iml" filepath="$PROJECT_DIR$/android_recyclerview_and_picasso/android_recyclerview_and_picasso.iml" />
       <module fileurl="file://$PROJECT_DIR$/android_styles_and_themes/android_styles_and_themes.iml" filepath="$PROJECT_DIR$/android_styles_and_themes/android_styles_and_themes.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/audio_player_with_notification_control/audio_player_with_notification_control.iml" filepath="$PROJECT_DIR$/audio_player_with_notification_control/audio_player_with_notification_control.iml" />
       <module fileurl="file://$PROJECT_DIR$/bound_services/bound_services.iml" filepath="$PROJECT_DIR$/bound_services/bound_services.iml" />
       <module fileurl="file://$PROJECT_DIR$/broadcast_receivers/broadcast_receivers.iml" filepath="$PROJECT_DIR$/broadcast_receivers/broadcast_receivers.iml" />
       <module fileurl="file://$PROJECT_DIR$/converting_android_activities_to_fragments/converting_android_activities_to_fragments.iml" filepath="$PROJECT_DIR$/converting_android_activities_to_fragments/converting_android_activities_to_fragments.iml" />
