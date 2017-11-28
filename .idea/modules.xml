@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/converting_android_activities_to_fragments/converting_android_activities_to_fragments.iml" filepath="$PROJECT_DIR$/converting_android_activities_to_fragments/converting_android_activities_to_fragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/creating_custom_views/creating_custom_views.iml" filepath="$PROJECT_DIR$/creating_custom_views/creating_custom_views.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom_content_providers/custom_content_providers.iml" filepath="$PROJECT_DIR$/custom_content_providers/custom_content_providers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawer_navigation/drawer_navigation.iml" filepath="$PROJECT_DIR$/drawer_navigation/drawer_navigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragments/fragments.iml" filepath="$PROJECT_DIR$/fragments/fragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragments_configuration_changes/fragments_configuration_changes.iml" filepath="$PROJECT_DIR$/fragments_configuration_changes/fragments_configuration_changes.iml" />
       <module fileurl="file://$PROJECT_DIR$/intents_and_intent_filters/intents_and_intent_filters.iml" filepath="$PROJECT_DIR$/intents_and_intent_filters/intents_and_intent_filters.iml" />

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Nav Drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="dummy_menu_item">Dummy Item</string>
+
+    <string-array name="quotes_array_list">
+        <item></item>
+        <item>Jackson</item>
+        <item>William</item>
+        <item>Martin</item>
+        <item>Harold</item>
+        <item>Elizabeth</item>
+        <item>Jennifer</item>
+        <item>Lillian</item>
+        <item>Catherine</item>
+        <item>Angelina</item>
+        <item>Anne</item>
+    </string-array>
+
+    <string-array name="quotes_array">
+        <item name="open_drawer">Open the drawer, see what\'s inside!</item>
+        <item>Lorem ipsum dolor sit amet, an decore repudiare cum, ei mei quot debet legendos. Laoreet torquatos neglegentur eam at, pri ut ullum deseruisse definiebas. In mea tollit maiorum. Pri ei vulputate definitiones, ei blandit omnesque maiestatis duo. An ferri tincidunt eam, pri no novum volumus.</item>
+        <item>Vidisse nominati inciderint eam te, ei eos zril oratio. Eos eu ferri fuisset rationibus, facete fierent consetetur pri an, cu enim fuisset adipiscing pro. Iuvaret alienum eligendi usu cu, te saepe accommodare pri. Et scripta nonumes consectetuer nam, vim id atqui repudiare, an vim dicat nostrum maluisset. Libris utroque legendos ex quo.</item>
+        <item>Ne eam justo labore partiendo. Te pri enim fugit dissentias, liberavisse intellegebat id eos. Quo ea wisi tollit explicari, posse noluisse qui no. Eu usu scripserit disputationi, accumsan expetenda accommodare cum eu.</item>
+        <item>Viderer posidonium no duo. Debet consequat no sea. Dicunt detracto ut usu, nonumy hendrerit ius in. Habeo congue ei pri, his ne splendide mnesarchum, mundi saepe accusata ut pri.</item>
+        <item>Eam id quaeque interpretaris, alia dignissim id usu, fugit graeco dicunt in nec. Scripta principes eos at, democritum instructior eu mea. Nonumy pericula interpretaris vis in, wisi sonet integre no vim, oblique nominati vis et. Eum te simul dolorum. Sit soleat ridens in. Ullum molestie appellantur cum ad, mea ne purto placerat vulputate.</item>
+        <item>Qui aliquando suscipiantur an, nec ea adhuc justo prompta. Nonumy soluta diceret sit ex. Eum ea impedit quaerendum, eum assum possim facilisis ne. Usu congue legere aliquip ne. Te per facilisi prodesset, ad choro saepe ius. Explicari patrioque an sit, prompta insolens laboramus mel no.</item>
+        <item>Pro alii minimum ex, labores gloriatur mea et, an vel integre adolescens moderatius. Quo graece omnium laboramus ei, admodum mentitum suscipit te mei. Est melius audire utamur id, regione integre malorum qui te. Nec eu liber discere, eos congue copiosae ei, quem putent commodo at vel. Ius ceteros urbanitas deterruisset te, nisl denique posidonium qui ad, congue doctus adipisci cu vel.</item>
+        <item>Ea mazim vitae tincidunt pri, postea fastidii principes in duo, et cum maluisset gubergren. An modus facete corpora vis, ne platonem persequeris has. Pri at maluisset reprehendunt. In duo dolor inciderint ullamcorper. Quando regione ancillae eam ei, dicant habemus periculis his te, ei usu ludus temporibus philosophia.</item>
+        <item>Sed ex facilisi comprehensam, in nec quas affert scriptorem. Id pro suas erroribus, no cum equidem similique. Ius an error decore iisque, te pro quem esse movet, quidam propriae per ut. Ius deleniti electram principes et, ut vix latine labores.</item>
+        <item>Utamur qualisque an vim. Viris solet iriure an vis. Aperiri oblique lucilius pri in, no mei meliore aliquando, ut quo sanctus epicuri. An sea utroque civibus, sea harum dolore id. In mel brute oratio, facete putant qui at, mea te facer nostrud hendrerit.</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my_drawer_tutorial_app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dummy_menu_item"
+        my_drawer_tutorial_app:showAsAction="never"
+        android:title="@string/dummy_menu_item" />
+    <item
+        android:id="@+id/dummy_action_item"
+        my_drawer_tutorial_app:showAsAction="always"
+        android:title="Dummy Action" />
+</menu>
+
