@@ -22,6 +22,7 @@
             <option value="$PROJECT_DIR$/fragments" />
             <option value="$PROJECT_DIR$/fragments_configuration_changes" />
             <option value="$PROJECT_DIR$/intents_and_intent_filters" />
+            <option value="$PROJECT_DIR$/material_design_navigation_drawers" />
             <option value="$PROJECT_DIR$/notification" />
             <option value="$PROJECT_DIR$/passing_parcelable_objects" />
             <option value="$PROJECT_DIR$/passing_serializable_objects" />
@@ -35,6 +36,7 @@
             <option value="$PROJECT_DIR$/universal_image_loader_list" />
             <option value="$PROJECT_DIR$/using_an_asynctask" />
             <option value="$PROJECT_DIR$/using_an_intentservice" />
+            <option value="$PROJECT_DIR$/using_androids_file_system" />
             <option value="$PROJECT_DIR$/using_downloadmanager" />
             <option value="$PROJECT_DIR$/volley_list_and_grid" />
           </set>
