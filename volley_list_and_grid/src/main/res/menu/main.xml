@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.myvolleyapp.my_volley_app.MainActivity" >
+    tools:activity="com.example.myvolleyapp.my_volley_app.MainActivity" >
     <item android:id="@+id/listviewItem"
         android:title="List View"
         android:orderInCategory="100"

@@ -16,7 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/custom_content_providers/custom_content_providers.iml" filepath="$PROJECT_DIR$/custom_content_providers/custom_content_providers.iml" />
       <module fileurl="file://$PROJECT_DIR$/drawer_navigation/drawer_navigation.iml" filepath="$PROJECT_DIR$/drawer_navigation/drawer_navigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragments/fragments.iml" filepath="$PROJECT_DIR$/fragments/fragments.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fragments_configuration_changes/fragments_configuration_changes.iml" filepath="$PROJECT_DIR$/fragments_configuration_changes/fragments_configuration_changes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragments_configuration_changes_and_retaining_objects/fragments_configuration_changes_and_retaining_objects.iml" filepath="$PROJECT_DIR$/fragments_configuration_changes_and_retaining_objects/fragments_configuration_changes_and_retaining_objects.iml" />
       <module fileurl="file://$PROJECT_DIR$/intents_and_intent_filters/intents_and_intent_filters.iml" filepath="$PROJECT_DIR$/intents_and_intent_filters/intents_and_intent_filters.iml" />
       <module fileurl="file://$PROJECT_DIR$/material_design_navigation_drawers/material_design_navigation_drawers.iml" filepath="$PROJECT_DIR$/material_design_navigation_drawers/material_design_navigation_drawers.iml" />
       <module fileurl="file://$PROJECT_DIR$/notification/notification.iml" filepath="$PROJECT_DIR$/notification/notification.iml" />
@@ -33,6 +33,7 @@
       <module fileurl="file://$PROJECT_DIR$/using_an_asynctask/using_an_asynctask.iml" filepath="$PROJECT_DIR$/using_an_asynctask/using_an_asynctask.iml" />
       <module fileurl="file://$PROJECT_DIR$/using_an_intentservice/using_an_intentservice.iml" filepath="$PROJECT_DIR$/using_an_intentservice/using_an_intentservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/using_androids_file_system/using_androids_file_system.iml" filepath="$PROJECT_DIR$/using_androids_file_system/using_androids_file_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/using_bitmaps_efficiently/using_bitmaps_efficiently.iml" filepath="$PROJECT_DIR$/using_bitmaps_efficiently/using_bitmaps_efficiently.iml" />
       <module fileurl="file://$PROJECT_DIR$/using_downloadmanager/using_downloadmanager.iml" filepath="$PROJECT_DIR$/using_downloadmanager/using_downloadmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/volley_list_and_grid/volley_list_and_grid.iml" filepath="$PROJECT_DIR$/volley_list_and_grid/volley_list_and_grid.iml" />
     </modules>
